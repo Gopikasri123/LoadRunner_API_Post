@@ -1,0 +1,161 @@
+Virtual User Script started at: 28-11-2025 16:01:37
+Starting action vuser_init.
+Web Turbo Replay of Opentext Performance Engineering 2025.3.0 for Windows 11; build 654 (Jul 09 2025 09:17:06)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\LoadRunnerScript\Post Method_API\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Pricing.
+Pricing.c(24): Authorization header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI...
+Pricing.c(27): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Pricing.c(27): Warning -26592: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26592]
+Pricing.c(27): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Pricing.c(28): web_add_auto_header("Content-Type") started  	[MsgId: MMSG-26355]
+Pricing.c(28): Warning -26592: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26592]
+Pricing.c(28): web_add_auto_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Pricing.c(29): web_add_auto_header("Accept") started  	[MsgId: MMSG-26355]
+Pricing.c(29): web_add_auto_header("Accept") was successful  	[MsgId: MMSG-26392]
+Pricing.c(61): Generated Body:
+{
+  "productRequests": [
+    {
+      "productInfo": {
+        "itemCode": "1124857",
+        "quantity": 1,
+        "unitOfMeasure": "BX"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "5700631",
+        "quantity": 1,
+        "unitOfMeasure": "BX"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "6402805",
+        "quantity": 1,
+        "unitOfMeasure": "CN"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "1010827",
+        "quantity": 1,
+        "unitOfMeasure": "BT"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "7211023",
+        "quantity": 1,
+        "unitOfMeasure": "EA"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "5430225",
+        "quantity": 1,
+        "unitOfMeasure": "CA"
+      }
+    }
+  ]
+}
+Pricing.c(63): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Pricing.c(63): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Pricing.c(65): web_custom_request("Customer_Pricing") started  	[MsgId: MMSG-26355]
+Pricing.c(65): web_custom_request("Customer_Pricing") was successful, 1078 body bytes, 460 header bytes  	[MsgId: MMSG-26386]
+Pricing.c(74): API Response:
+HTTP/2.0 200
+Status: 200
+date: Fri, 28 Nov 2025 10:31:41 GMT
+content-type: application/json
+set-cookie: ApplicationGatewayAffinityCORS=eed2ea7b2030b0cffddc1ccdc5b8621a; Path=/; SameSite=None; Secure
+set-cookie: ApplicationGatewayAffinity=eed2ea7b2030b0cffddc1ccdc5b8621a; Path=/
+request-context: appId=cid-v1:1c8dde29-1042-49b9-8d5e-d15f461d0954
+x-azure-ref: 20251128T103140Z-16fddf7f654vp2lbhC1HYDx58c0000000qfg000000003x1y
+x-cache: CONFIG_NOCACHE
+
+{"data": [{"itemCode": "1124857", "itemUom": "BX", "unitPrice": "$17.99", "quantityBreaks": [{"quantity": 1, "uom": "BX", "price": "$17.99"}, {"quantity": 6, "uom": "BX", "price": "$17.49"}]}, {"itemCode": "5700631", "itemUom": "BX", "unitPrice": "$18.99", "quantityBreaks": [{"quantity": 1, "uom": "BX", "price": "$18.99"}, {"quantity": 10, "uom": "BX", "price": "$18.69"}]}, {"itemCode": "6402805", "itemUom": "CN", "unitPrice": "$12.35", "quantityBreaks": [{"quantity": 1, "uom": "CN", "price": "$12.35"}]}, {"itemCode": "1010827", "itemUom": "BT", "unitPrice": "$27.29", "quantityBreaks": [{"quantity": 1, "uom": "BT", "price": "$27.29"}]}, {"itemCode": "7211023", "itemUom": "EA", "unitPrice": "$115.99", "quantityBreaks": [{"quantity": 1, "uom": "EA", "price": "$115.99"}]}, {"itemCode": "5430225", "itemUom": "CA", "unitPrice": "$11.99", "quantityBreaks": [{"quantity": 1, "uom": "CA", "price": "$11.99"}]}], "meta": {"timestamp": "2025-11-28T10:31:41.451947Z", "requestId": "830d2bae-dcc4-45e5-9310-2b83dae4ab00", "limit": 6, "offset": 0, "total": 6, "elapsed_ms": 141}}
+Ending action Pricing.
+Starting action Inventory.
+Inventory.c(24): Authorization header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI...
+Inventory.c(27): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Inventory.c(27): Warning -26592: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26592]
+Inventory.c(27): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Inventory.c(28): web_add_auto_header("Content-Type") started  	[MsgId: MMSG-26355]
+Inventory.c(28): Warning -26592: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26592]
+Inventory.c(28): web_add_auto_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Inventory.c(29): web_add_auto_header("Accept") started  	[MsgId: MMSG-26355]
+Inventory.c(29): web_add_auto_header("Accept") was successful  	[MsgId: MMSG-26392]
+Inventory.c(61): Generated Body:
+{
+  "productRequests": [
+    {
+      "productInfo": {
+        "itemCode": "1124857",
+        "quantity": 1,
+        "unitOfMeasure": "BX"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "5700631",
+        "quantity": 1,
+        "unitOfMeasure": "BX"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "6402805",
+        "quantity": 1,
+        "unitOfMeasure": "CN"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "1010827",
+        "quantity": 1,
+        "unitOfMeasure": "BT"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "7211023",
+        "quantity": 1,
+        "unitOfMeasure": "EA"
+      }
+    },
+    {
+      "productInfo": {
+        "itemCode": "5430225",
+        "quantity": 1,
+        "unitOfMeasure": "CA"
+      }
+    }
+  ]
+}
+Inventory.c(63): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Inventory.c(63): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Inventory.c(65): web_custom_request("Customer_Inventory") started  	[MsgId: MMSG-26355]
+Inventory.c(65): web_custom_request("Customer_Inventory") was successful, 736 body bytes, 271 header bytes  	[MsgId: MMSG-26386]
+Inventory.c(74): API Response:
+HTTP/2.0 200
+Status: 200
+date: Fri, 28 Nov 2025 10:31:43 GMT
+content-type: application/json
+request-context: appId=cid-v1:1c8dde29-1042-49b9-8d5e-d15f461d0954
+x-azure-ref: 20251128T103143Z-16fddf7f654vp2lbhC1HYDx58c0000000qfg000000003x3u
+x-cache: CONFIG_NOCACHE
+
+{"data": [{"itemCode": "1124857", "error": "Ship To is invalid (account: 3855111 , Product: 1124857)"}, {"itemCode": "5700631", "error": "Ship To is invalid (account: 3855111 , Product: 5700631)"}, {"itemCode": "6402805", "error": "Ship To is invalid (account: 3855111 , Product: 6402805)"}, {"itemCode": "1010827", "error": "Ship To is invalid (account: 3855111 , Product: 1010827)"}, {"itemCode": "7211023", "error": "Ship To is invalid (account: 3855111 , Product: 7211023)"}, {"itemCode": "5430225", "error": "Ship To is invalid (account: 3855111 , Product: 5430225)"}], "meta": {"timestamp": "2025-11-28T10:31:43.732937Z", "requestId": "cecc080f-430b-488e-a3c2-b2ec3d2cb413", "limit": 6, "offset": 0, "total": 6, "elapsed_ms": 65}}
+Ending action Inventory.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

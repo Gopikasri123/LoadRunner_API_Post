@@ -1,0 +1,26 @@
+[
+    {
+        "actionName": "Pricing",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: Customer_Pricing",
+                "infFile": "t1.inf",
+                "time": 1764325902499
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Inventory",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: Customer_Inventory",
+                "infFile": "t2.inf",
+                "time": 1764325904288
+            }
+        ],
+        "transactions": []
+    }
+]

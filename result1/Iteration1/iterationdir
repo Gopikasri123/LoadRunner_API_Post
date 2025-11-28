@@ -1,0 +1,8 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[Pricing]
+SnapshotIndex=I1_Pricing
+[Inventory]
+SnapshotIndex=I1_Inventory
+[vuser_end]
+SnapshotIndex=I1_vuser_end

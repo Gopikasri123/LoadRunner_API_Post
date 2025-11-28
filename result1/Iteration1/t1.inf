@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/json
+StepName=Custom Request: Customer_Pricing
+Total=1
+FileName1=t1.json
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Customer_Pricing
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1764325898611
+URL1=https://api.edp.henryschein.com/api/customers/3855111/prices/item
