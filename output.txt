@@ -1,4 +1,4 @@
-Virtual User Script started at: 28-11-2025 16:01:37
+Virtual User Script started at: 09-12-2025 15:37:13
 Starting action vuser_init.
 Web Turbo Replay of Opentext Performance Engineering 2025.3.0 for Windows 11; build 654 (Jul 09 2025 09:17:06)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -72,15 +72,15 @@ Pricing.c(65): web_custom_request("Customer_Pricing") was successful, 1078 body 
 Pricing.c(74): API Response:
 HTTP/2.0 200
 Status: 200
-date: Fri, 28 Nov 2025 10:31:41 GMT
+date: Tue, 09 Dec 2025 10:07:13 GMT
 content-type: application/json
 set-cookie: ApplicationGatewayAffinityCORS=eed2ea7b2030b0cffddc1ccdc5b8621a; Path=/; SameSite=None; Secure
 set-cookie: ApplicationGatewayAffinity=eed2ea7b2030b0cffddc1ccdc5b8621a; Path=/
 request-context: appId=cid-v1:1c8dde29-1042-49b9-8d5e-d15f461d0954
-x-azure-ref: 20251128T103140Z-16fddf7f654vp2lbhC1HYDx58c0000000qfg000000003x1y
+x-azure-ref: 20251209T100712Z-17d7c4c6f98pbt75hC1MAA3m4w0000000b0g000000001rxq
 x-cache: CONFIG_NOCACHE
 
-{"data": [{"itemCode": "1124857", "itemUom": "BX", "unitPrice": "$17.99", "quantityBreaks": [{"quantity": 1, "uom": "BX", "price": "$17.99"}, {"quantity": 6, "uom": "BX", "price": "$17.49"}]}, {"itemCode": "5700631", "itemUom": "BX", "unitPrice": "$18.99", "quantityBreaks": [{"quantity": 1, "uom": "BX", "price": "$18.99"}, {"quantity": 10, "uom": "BX", "price": "$18.69"}]}, {"itemCode": "6402805", "itemUom": "CN", "unitPrice": "$12.35", "quantityBreaks": [{"quantity": 1, "uom": "CN", "price": "$12.35"}]}, {"itemCode": "1010827", "itemUom": "BT", "unitPrice": "$27.29", "quantityBreaks": [{"quantity": 1, "uom": "BT", "price": "$27.29"}]}, {"itemCode": "7211023", "itemUom": "EA", "unitPrice": "$115.99", "quantityBreaks": [{"quantity": 1, "uom": "EA", "price": "$115.99"}]}, {"itemCode": "5430225", "itemUom": "CA", "unitPrice": "$11.99", "quantityBreaks": [{"quantity": 1, "uom": "CA", "price": "$11.99"}]}], "meta": {"timestamp": "2025-11-28T10:31:41.451947Z", "requestId": "830d2bae-dcc4-45e5-9310-2b83dae4ab00", "limit": 6, "offset": 0, "total": 6, "elapsed_ms": 141}}
+{"data": [{"itemCode": "1124857", "itemUom": "BX", "unitPrice": "$17.99", "quantityBreaks": [{"quantity": 1, "uom": "BX", "price": "$17.99"}, {"quantity": 6, "uom": "BX", "price": "$17.49"}]}, {"itemCode": "5700631", "itemUom": "BX", "unitPrice": "$18.99", "quantityBreaks": [{"quantity": 1, "uom": "BX", "price": "$18.99"}, {"quantity": 10, "uom": "BX", "price": "$18.69"}]}, {"itemCode": "6402805", "itemUom": "CN", "unitPrice": "$12.35", "quantityBreaks": [{"quantity": 1, "uom": "CN", "price": "$12.35"}]}, {"itemCode": "1010827", "itemUom": "BT", "unitPrice": "$27.29", "quantityBreaks": [{"quantity": 1, "uom": "BT", "price": "$27.29"}]}, {"itemCode": "7211023", "itemUom": "EA", "unitPrice": "$115.99", "quantityBreaks": [{"quantity": 1, "uom": "EA", "price": "$115.99"}]}, {"itemCode": "5430225", "itemUom": "CA", "unitPrice": "$11.99", "quantityBreaks": [{"quantity": 1, "uom": "CA", "price": "$11.99"}]}], "meta": {"timestamp": "2025-12-09T10:07:13.134893Z", "requestId": "bbf2d1ba-e1f6-4b92-9c22-76a2b05a61fc", "limit": 6, "offset": 0, "total": 6, "elapsed_ms": 319}}
 Ending action Pricing.
 Starting action Inventory.
 Inventory.c(24): Authorization header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI...
@@ -146,13 +146,13 @@ Inventory.c(65): web_custom_request("Customer_Inventory") was successful, 736 bo
 Inventory.c(74): API Response:
 HTTP/2.0 200
 Status: 200
-date: Fri, 28 Nov 2025 10:31:43 GMT
+date: Tue, 09 Dec 2025 10:07:14 GMT
 content-type: application/json
 request-context: appId=cid-v1:1c8dde29-1042-49b9-8d5e-d15f461d0954
-x-azure-ref: 20251128T103143Z-16fddf7f654vp2lbhC1HYDx58c0000000qfg000000003x3u
+x-azure-ref: 20251209T100714Z-17d7c4c6f98pbt75hC1MAA3m4w0000000b0g000000001s00
 x-cache: CONFIG_NOCACHE
 
-{"data": [{"itemCode": "1124857", "error": "Ship To is invalid (account: 3855111 , Product: 1124857)"}, {"itemCode": "5700631", "error": "Ship To is invalid (account: 3855111 , Product: 5700631)"}, {"itemCode": "6402805", "error": "Ship To is invalid (account: 3855111 , Product: 6402805)"}, {"itemCode": "1010827", "error": "Ship To is invalid (account: 3855111 , Product: 1010827)"}, {"itemCode": "7211023", "error": "Ship To is invalid (account: 3855111 , Product: 7211023)"}, {"itemCode": "5430225", "error": "Ship To is invalid (account: 3855111 , Product: 5430225)"}], "meta": {"timestamp": "2025-11-28T10:31:43.732937Z", "requestId": "cecc080f-430b-488e-a3c2-b2ec3d2cb413", "limit": 6, "offset": 0, "total": 6, "elapsed_ms": 65}}
+{"data": [{"itemCode": "1124857", "error": "Ship To is invalid (account: 3855111 , Product: 1124857)"}, {"itemCode": "5700631", "error": "Ship To is invalid (account: 3855111 , Product: 5700631)"}, {"itemCode": "6402805", "error": "Ship To is invalid (account: 3855111 , Product: 6402805)"}, {"itemCode": "1010827", "error": "Ship To is invalid (account: 3855111 , Product: 1010827)"}, {"itemCode": "7211023", "error": "Ship To is invalid (account: 3855111 , Product: 7211023)"}, {"itemCode": "5430225", "error": "Ship To is invalid (account: 3855111 , Product: 5430225)"}], "meta": {"timestamp": "2025-12-09T10:07:14.807342Z", "requestId": "499a655c-3787-4db0-a9c5-025de789d12b", "limit": 6, "offset": 0, "total": 6, "elapsed_ms": 72}}
 Ending action Inventory.
 Ending iteration 1.
 Ending Vuser...

@@ -1,10 +1,10 @@
 HTTP/2.0 200
 Status: 200
-date: Fri, 28 Nov 2025 10:31:41 GMT
+date: Tue, 09 Dec 2025 10:07:13 GMT
 content-type: application/json
 set-cookie: ApplicationGatewayAffinityCORS=eed2ea7b2030b0cffddc1ccdc5b8621a; Path=/; SameSite=None; Secure
 set-cookie: ApplicationGatewayAffinity=eed2ea7b2030b0cffddc1ccdc5b8621a; Path=/
 request-context: appId=cid-v1:1c8dde29-1042-49b9-8d5e-d15f461d0954
-x-azure-ref: 20251128T103140Z-16fddf7f654vp2lbhC1HYDx58c0000000qfg000000003x1y
+x-azure-ref: 20251209T100712Z-17d7c4c6f98pbt75hC1MAA3m4w0000000b0g000000001rxq
 x-cache: CONFIG_NOCACHE
 
